@@ -19,6 +19,6 @@ biological sequences, NGS data and so on.
          it will be treated as a higher bound
        3.  `length_bounds`: bounding interval of read lengths; if only one value is present,
          it will be treated as a higher bound
-       4. `quality_threshold`: minimal mean sequences quality of the read
+       4. `quality_threshold`: minimal mean sequence quality of the read
       
       Output: _dictionary_ containing filtered sequnces; it has the same structure as input dictionary. 
