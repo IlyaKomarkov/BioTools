@@ -13,12 +13,12 @@ biological sequences, NGS data and so on.
       - mean sequencing quality threshold by phred scale (default: 0)
       
       Input:
-       1.  a `_dictionary_` where keys are sequnce IDs, values are tuples of two elements:
+       1.  a `dictionary` where keys are sequnce IDs, values are tuples of two elements:
          sequence and quality of reading (by phred scale), both are str type
-       2. `_gc_bounds_`: bounding interval of GC-content values (%); if only one value is present,
+       2. `gc_bounds`: bounding interval of GC-content values (%); if only one value is present,
          it will be treated as a higher bound
-       3.  `_length_bounds_`: bounding interval of read lengths; if only one value is present,
+       3.  `length_bounds`: bounding interval of read lengths; if only one value is present,
          it will be treated as a higher bound
-       4. `_quality_threshold_`: minimal mean sequences quality of the read
+       4. `quality_threshold`: minimal mean sequences quality of the read
       
       Output: _dictionary_ containing filtered sequnces; it has the same structure as input dictionary. 
