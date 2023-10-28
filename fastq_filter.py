@@ -1,5 +1,5 @@
 def fastq_filter(seqs: dict, gc_bounds: tuple = (0, 100), length_bounds: tuple = (0, 2**32), quality_threshold: float =
-                 0):
+                 0) -> dict:
     """
     Filters reads form FASTQ files by read length, GC-content and sequence quality
     :param seqs: dict
